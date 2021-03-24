@@ -23,7 +23,7 @@ public class gerente extends funcionario {
 
     public double getBonificacao() {
 
-        return this.salario;
+        return super.getSalario() + super.getBonificacao();
     }
 
 }
