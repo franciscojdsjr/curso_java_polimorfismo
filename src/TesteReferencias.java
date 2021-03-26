@@ -13,10 +13,14 @@ public class TesteReferencias {
 		Designer d = new Designer();
 		d.setSalario(2000.0);
 
+		Administrador adm = new Administrador();
+		adm.setSalario(1000);
+
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registra(g1);
 		controle.registra(ev);
 		controle.registra(d);
+		controle.registra(adm);
 
 		System.out.println(controle.getSoma());
 
