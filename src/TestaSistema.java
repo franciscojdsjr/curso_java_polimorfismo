@@ -6,7 +6,7 @@ public class TestaSistema {
         g.setSenha(2222);
 
         Administrador adm = new Administrador();
-        adm.setSenha(3333);
+        adm.setSenha(2222);
 
         SistemaInterno si = new SistemaInterno();
         si.autentica(g);
